@@ -13,3 +13,4 @@ console.log('Issue Description:', issueDescription);
 
 // Provide feedback to the user
 document.getElementById('feedback').innerText = 'Issue submitted successfully!';
+	
