@@ -2,8 +2,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 150vh;
-    background: url('https://happytohelp.foundation/wp-content/uploads/2016/02/2.jpg');
+    min-height: 90vh;
+    background: url('https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_640.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -52,3 +52,4 @@ button:hover {
     margin-top: 20px;
     font-weight: Bold;
 }
+
