@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+    text-align: center;
     width: 400px;
   background: none;
   border: 2px solid rgba(255, 255, 255,.2);
@@ -52,4 +53,5 @@ button:hover {
     margin-top: 20px;
     font-weight: Bold;
 }
+
 
