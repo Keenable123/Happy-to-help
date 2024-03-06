@@ -8,13 +8,14 @@ body {
     background: url('https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg');
     background-size: cover;
     background-position: center;
-    margin: 0;
+    margin-right: 20px;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
+    
     width: 400px;
     background: none;
     border: 2px solid rgba(255, 255, 255,.2);
@@ -38,6 +39,7 @@ body {
 }
 
 .input-box input {
+    margin-left: 45px;
     width: 100%;
     height: 100%;
     background: blue;
@@ -58,6 +60,7 @@ body {
     position: absolute;
     right: 20px;
     top: 50%;
+    margin-left: 10vh;
     transform: translateY(-50%);
     font-size: 20px;
 }
@@ -104,4 +107,16 @@ body {
     margin: 20px 0 15px;
 }
 
+#submit {
+    height: 40px;
+    width: 120px; /* Adjust the width as needed */
+    text-align: center; /* Center text horizontally within the button */
+    margin-left: 130px;
+    background: blue;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #1d9258;
+        
+}
 
