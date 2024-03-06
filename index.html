@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
                 <input type="password" id="password" placeholder="Password" required>
             </div>
             <div>
-                <input type="submit" value="Submit">
+                <input id="submit" type="submit" value="Submit">
             </div>
             <!-- <script>
                 function myFunction() {
@@ -26,7 +26,7 @@
                 
               </script> -->
 
-            <!-- <a style="margin-left: 50%;" href="/index2.html">Start</a> -->
+            <!-- <a style="margin-left: 50%;" href="/index2.html">Start</a> 
             
             <div class="register-link">
                 <p> <a href="#"></a></p>   
@@ -38,3 +38,47 @@
 </body>
 </html>
 
+
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ 
+ <div class="wrapper">
+     <form id="loginForm" action="/index2.html">
+         <h1>Happy to help</h1>
+         <div class="input-box">
+             <input type="email" id="email" placeholder="email" required>
+         </div>
+         <div class="input-box">
+             <input type="password" id="password" placeholder="Password" required>
+         </div>
+         <div>
+             <input id="submit" type="submit" value="Submit">
+         </div>
+         <div class="register-link">
+             <p><a href="#"></a></p>   
+         </div>
+     </form>
+ </div>
+ 
+ <script>
+     document.getElementById("loginForm").addEventListener("submit", function(event) {
+         var email = document.getElementById("email").value;
+         var gmailPattern = /^[a-zA-Z0-9._-]+@gmail.com$/;
+         if (!gmailPattern.test(email)) {
+             alert("Please enter a valid Gmail address.");
+             event.preventDefault();
+         }
+     });
+ </script>
+ 
+ </body>
+ </html>
+ 
